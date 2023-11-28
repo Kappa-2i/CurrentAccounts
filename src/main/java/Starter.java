@@ -15,7 +15,7 @@ public class Starter {
         String Cognome = scanner.nextLine();
         System.out.println("Inserisci codice fiscale intestatario: ");
         String codiceFiscale = scanner.nextLine();
-        System.out.println("Inserisci data di nascita intestatario: ");
+        System.out.println("Inserisci data: ");
         String dataDiNascita = scanner.nextLine();
         System.out.println("\n");
         Intestatario intes1 = new Intestatario(Nome, Cognome, codiceFiscale, dataDiNascita);
